@@ -53,6 +53,7 @@ a{
 #home{
   background-color: var(--bg-primary);
   height: 100vh;
+  min-height: 830px;
 }
 #home .navbar{
   background-color: #fff;
@@ -420,4 +421,5 @@ header .header-content img{
   }
 
 }
+
 
