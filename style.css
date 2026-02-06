@@ -293,6 +293,7 @@ header .header-content img{
 }
 #portfolio .row .item img{
   max-height: 190px;
+  object-fit: cover;
 }
 #portfolio .row .item .item-content{
   padding: 20px 15px 30px;
@@ -419,3 +420,4 @@ header .header-content img{
   }
 
 }
+
