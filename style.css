@@ -291,6 +291,9 @@ header .header-content img{
 #portfolio .row .item:hover{
   transform: scale(1.03);
 }
+#portfolio .row .item img{
+  max-height: 190px;
+}
 #portfolio .row .item .item-content{
   padding: 20px 15px 30px;
 }
@@ -414,4 +417,5 @@ header .header-content img{
   #contact .row{
     padding: 2rem 1rem;
   }
+
 }
