@@ -53,6 +53,7 @@ a{
 #home{
   background-color: var(--bg-primary);
   height: 100vh;
+  min-height: 600px;
 }
 #home .navbar{
   background-color: #fff;
@@ -353,6 +354,9 @@ header .header-content img{
 
 /* Tablet Responsive*/
 @media(max-width: 768px){
+  #home{
+    min-height: 900px;
+  }
   #home .navbar nav{
     display: block;
     text-align: center;
@@ -420,6 +424,7 @@ header .header-content img{
   }
 
 }
+
 
 
 
