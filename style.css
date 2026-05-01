@@ -301,7 +301,7 @@ header .header-content img{
 }
 #portfolio .row .item .img-container img{
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 #portfolio .row .item .item-content{
