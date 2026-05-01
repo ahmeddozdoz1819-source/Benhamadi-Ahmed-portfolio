@@ -294,7 +294,7 @@ header .header-content img{
   transform: scale(1.03);
 }
 #portfolio .row .item .img-container{
-  max-height: 190px;
+  height: 190px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
