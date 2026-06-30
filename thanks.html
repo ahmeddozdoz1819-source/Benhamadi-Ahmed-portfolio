@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>شكراً لك!</title>
-  <link rel="stylesheet" href="style.css">  <!-- يستخدم نفس الألوان والستايل -->
+  <title>Thank You</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body style="text-align: center; padding: 100px 20px; background: var(--bg-primary); color: var(--primary-color);">
-  <h1 style="color: var(--secondary-color);">شكراً لرسالتك!</h1>
-  <p>تم استلام رسالتك بنجاح.</p>
-  <p>سأرد عليك في أقرب وقت ممكن.</p>
-  <br><br>
-  <a href="index.html" class="btn-primary">العودة إلى الصفحة الرئيسية</a>
+
+<body>
+  <main class="thank-you-page">
+    <section class="thank-you-card">
+      <div class="thank-you-icon">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h1>Thank you for reaching out!</h1>
+      <p>Your message has been received successfully.</p>
+      <p>I truly appreciate your interest and will get back to you as soon as possible.</p>
+      <div class="thank-you-actions">
+        <a href="index.html" class="btn-primary">Back to Home</a>
+        <a href="index.html#contact" class="btn-secondary">Contact Again</a>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
